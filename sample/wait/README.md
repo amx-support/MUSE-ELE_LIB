@@ -1,4 +1,4 @@
-# MUSEでのWAIT処理の実装
+# MUSEでのWAIT処理の実装 v1.1
 
 ### 機能
 MUSEでNetlinxライクなWAIT処理を実行する。
