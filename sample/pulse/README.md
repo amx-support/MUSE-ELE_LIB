@@ -1,4 +1,4 @@
-# MUSEでのPULSE動作の実装
+# MUSEでのPULSE動作の実装 v1.1
 
 ### 機能
 **MUSE(idevice)** / **CEシリーズ** / **NetLinx系デバイス** のチャンネル制御でPULSEを実行します。
