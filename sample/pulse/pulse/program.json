@@ -1,0 +1,10 @@
+{
+  "id": "pulse",
+  "name": "pulse",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "pulse_sample.py",
+  "envvars": {}
+}

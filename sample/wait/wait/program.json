@@ -1,0 +1,10 @@
+{
+  "id": "wait",
+  "name": "wait",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "wait_sample.py",
+  "envvars": {}
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hold_test",
+  "name": "hold_test",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "hold_test.py",
+  "envvars": {}
+}
