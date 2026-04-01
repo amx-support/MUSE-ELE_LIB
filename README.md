@@ -1,1 +1,1 @@
-# MUSE-ELE_LIB
+MUSE(Python)用のライブラリ集です。
