@@ -14,16 +14,16 @@
 ###### ボタン入力のエミュレート<br/>
 `emulate_device.btn_ev(コールバック関数,デバイス,ポート番号,チャンネル番号,動作)`
 
-デバイスは**context.devices.get()**で生成したインスタンスをそのまま指定する<br/>
+デバイスはcontext.devices.get()で生成したインスタンスをそのまま指定する<br/>
 動作は、TrueがPush、FalseがRelease<br/><br/>
 
 ###### レベル変動のエミュレート<br/>
 `emulate_device.lv_ev(コールバック関数,デバイス,ポート番号,レベル番号,レベル値)`
 
-デバイスは**context.devices.get()**で生成したインスタンスをそのまま指定する<br/><br/>
+デバイスはcontext.devices.get()で生成したインスタンスをそのまま指定する<br/><br/>
 
 ###### データ受信のエミュレート<br/>
 `emulate_device.data_ev(コールバック関数,デバイス,ポート番号,受信データ)`
 
-デバイスは**context.devices.get()**で生成したインスタンスをそのまま指定する<br/>
+デバイスはcontext.devices.get()で生成したインスタンスをそのまま指定する<br/>
 受信データは**str**か**bytes**<br/><br/>
