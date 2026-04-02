@@ -1,0 +1,10 @@
+{
+  "id": "tp_list",
+  "name": "tp_list",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "tp_list_sample.py",
+  "envvars": {}
+}
