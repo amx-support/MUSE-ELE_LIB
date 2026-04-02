@@ -20,6 +20,7 @@ UDPクライアント通信を行います。<br/>
 |recv_port|int|受信IPポート番号 (デフォルト:None)|
 |receive_bytes|int|最大受信バイト数 (デフォルト:1024)|
 
+recv_portを指定すると受信が有効になる
 
 ##### クラスメソッド<br/>
 
