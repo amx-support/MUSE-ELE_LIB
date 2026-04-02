@@ -1,0 +1,10 @@
+{
+  "id": "udp_client",
+  "name": "udp_client",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "udp_client_sample.py",
+  "envvars": {}
+}
