@@ -7,4 +7,5 @@ MUSE(Python)用のライブラリ集です。
 |[wait](sample/wait)|1.1|時間指定または条件指定によるウェイト処理|
 |[tp_list](sample/tp_list)|1.1|タッチパネルの一括制御|
 |[udp_client](sample/udp_client)|0.9|UDPクライアント通信|
+|[udp_server](sample/udp_server)|0.9|UDPサーバー通信|
 |[emulate_device](sample/emulate_device)|1.0|仮想的にイベントを発生させる|
