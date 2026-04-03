@@ -1,4 +1,4 @@
-# MUSEでのUDPサーバー通信の実装 v0.9
+# MUSEでのUDPサーバー通信の実装
 
 ### 機能
 UDPサーバー通信を行います。<br/>
@@ -112,7 +112,7 @@ OFFLINEの場合**True**が、ONLINEの場合**False**が戻る
 |source|インスタンス|対象のインスタンス|
 |device|str|識別用ID|
 |id|str|online|
-|path|str|udpServer/online|
+|path|str|UdpServer/online|
 |value|bool|True|
 
 ###### OFFLINEイベント<br/>
@@ -122,7 +122,7 @@ OFFLINEの場合**True**が、ONLINEの場合**False**が戻る
 |source|インスタンス|対象のインスタンス|
 |device|str|識別用ID|
 |id|str|offline|
-|path|str|udpServer/offline|
+|path|str|UdpServer/offline|
 |value|bool|False|
 
 ###### 受信イベント<br/>
@@ -132,7 +132,7 @@ OFFLINEの場合**True**が、ONLINEの場合**False**が戻る
 |source|インスタンス|対象のインスタンス|
 |device|str|識別用ID|
 |id|str|receive|
-|path|str|udpServer/receive|
+|path|str|UdpServer/receive|
 |value|bool|True|
 |arguments["data"]|bytes|受信データ|
 |arguments["length"]|int|受信データの長さ|
