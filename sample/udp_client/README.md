@@ -20,7 +20,6 @@ UDPクライアント通信を行います。<br/>
 |recv_port|int|受信IPポート番号 (デフォルト:None)|
 |receive_bytes|int|最大受信バイト数 (デフォルト:1024)|
 
-recv_portを指定すると受信が有効になる
 
 ##### クラスメソッド<br/>
 
@@ -112,7 +111,7 @@ OFFLINEの場合**True**が、ONLINEの場合**False**が戻る
 |source|インスタンス|対象のインスタンス|
 |device|str|識別用ID|
 |id|str|online|
-|path|str|udpClient/online|
+|path|str|UdpClient/online|
 |value|bool|True|
 
 ###### OFFLINEイベント<br/>
@@ -122,7 +121,7 @@ OFFLINEの場合**True**が、ONLINEの場合**False**が戻る
 |source|インスタンス|対象のインスタンス|
 |device|str|識別用ID|
 |id|str|offline|
-|path|str|udpClient/offline|
+|path|str|UdpClient/offline|
 |value|bool|False|
 
 ###### 受信イベント<br/>
@@ -132,7 +131,7 @@ OFFLINEの場合**True**が、ONLINEの場合**False**が戻る
 |source|インスタンス|対象のインスタンス|
 |device|str|識別用ID|
 |id|str|receive|
-|path|str|udpClient/receive|
+|path|str|UdpClient/receive|
 |value|bool|True|
 |arguments["data"]|bytes|受信データ|
 |arguments["length"]|int|受信データの長さ|
