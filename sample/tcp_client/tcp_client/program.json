@@ -1,0 +1,10 @@
+{
+  "id": "tcp_client",
+  "name": "tcp_client",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "tcp_client_sample.py",
+  "envvars": {}
+}
