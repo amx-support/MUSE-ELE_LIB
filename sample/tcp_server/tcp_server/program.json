@@ -1,0 +1,10 @@
+{
+  "id": "tcp_server",
+  "name": "tcp_server",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "tcp_server_sample.py",
+  "envvars": {}
+}
