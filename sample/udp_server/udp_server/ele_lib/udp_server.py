@@ -337,7 +337,7 @@ class UdpServer:
     # 受信イベント生成 ------------------------------------------------------------------------------------
     def __ev_receive(self, data:bytes, address:list):
         if self.__receive_callback_func is not None:
-            e = EvParams(self, self.__device, "receive", f"{self.__class__.__name__}/receive", False, {"data":data,"length":len(data),"address":address[0],"port":address[1]})
+            e = EvParams(self, self.__device, "receive", f"{self.__class__.__name__}/receive", True, {"data":data,"length":len(data),"address":address[0],"port":address[1]})
             self.__receive_callback_func(e)
 
     # ONERRORコールバック登録 -----------------------------------------------------------------------------
