@@ -1,4 +1,4 @@
-# ButtonのHold処理の実装 v1.1
+# ButtonのHold処理の実装 v1.2
 
 ### 機能
 NetLinxプログラムの**BUTTON_EVENT-HOLD**に相当するボタン押し続け処理を行う。
