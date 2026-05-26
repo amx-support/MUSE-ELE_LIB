@@ -1,6 +1,6 @@
 #--------------------------------------------------------------------------------------------------
 #
-# Button Hold モジュール v1.1
+# Button Hold モジュール v1.2
 #
 # Program: KEI
 #
@@ -58,13 +58,13 @@ class Hold:
     # Hold処理用スレッドクラス ------------------------------------------------------------------------------
     class __HoldThread(Thread):
         # 初期化
-        def __init__(self, event_callback, event_parm, hold_time, delay,repeat):
+        def __init__(self, event_callback, event_parm, hold_time, delay, repeat):
             self.__event_callback = event_callback
             self.__event_parm = event_parm
             self.__hold_time = hold_time
             self.__delay = delay
             self.__repeat = repeat
-            self.__shutdown = False
+            self.shutdown = False
             super().__init__(daemon=True)
         
         # Hold動作の実行用関数
@@ -74,14 +74,14 @@ class Hold:
             else:
                 time.sleep(self.__hold_time)
             
-            if not self.__shutdown:
+            if not self.shutdown:
                 self.__event_callback(self.__event_parm)
                 if not self.__repeat: # 繰り返しでなければ終了
                     return
 
             # Hold繰り返し
-            while not self.__shutdown:
+            while not self.shutdown:
                 time.sleep(self.__hold_time)
 
-                if not self.__shutdown:
+                if not self.shutdown:
                     self.__event_callback(self.__event_parm)
